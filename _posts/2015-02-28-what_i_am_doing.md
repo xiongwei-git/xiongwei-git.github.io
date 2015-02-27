@@ -18,6 +18,9 @@ category: blog
 * 完善烂笔头开源项目
 * 写博文[EasyNote]
 
+##研究origami
+* [origami文档](http://facebook.github.io/origami/)
+
 ##学习python
 * [Python快速教程](http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)
 * [零基础自学用Python 3开发网络爬虫(一)](http://jecvay.com/2014/09/python3-web-bug-series1.html)
