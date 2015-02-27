@@ -34,13 +34,12 @@
 		</ul>
 	</nav>
 	
-	<!--
-	//hide search by ted
+
 	<form action="/search/" class="block block-search">
-		<h3>Search</h3>
+		<h3>搜索</h3>
 		<p><input type="search" name="q" placeholder="Search" /></p>
 	</form>
-	-->
+
 	
 	<div class="block block-about">
 		<h3>About</h3>
