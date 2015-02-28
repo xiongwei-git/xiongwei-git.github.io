@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<meta name="baidu-site-verification" content="YtJE4zyvB0" />
 <meta charset="utf-8" />
 <meta name="author" content="{{ site.meta.author.name }}" />
 <meta name="keywords" content="{{ page.tags | join: ',' }}" />
