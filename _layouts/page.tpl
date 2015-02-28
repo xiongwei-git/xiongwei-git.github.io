@@ -34,18 +34,11 @@
 		{% endfor %}
 		</ul>
 	</nav>
-	
 
-	<script type="text/javascript">
-		document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E%3Cscript charset="utf-8" src="http://znsv.baidu.com/customer_search/api/js?sid=11658169876787730854') + '&plate_url=' + (encodeURIComponent(window.location.href)) + '&t=' + (Math.ceil(new Date()/3600000)) + unescape('"%3E%3C/script%3E'));
-		</script>
-
-	<!--
 	<form action="/search/" class="block block-search">
 		<h3>搜索</h3>
 		<p><input type="search" name="q" placeholder="Search" /></p>
 	</form>
-	-->
 
 	
 	<div class="block block-about">
