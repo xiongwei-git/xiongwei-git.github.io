@@ -44,6 +44,13 @@ category: easy_note
 
 目前的代码量很少，大多是采用别人的开源库，这里先不开源代码了，没有参考价值，等后期实现了所有我想要的功能之后，我再把代码开源共享。
 
+> **3月5日更新:**
+> 新增“摇一摇”快速记录剪切板内容功能
+> 新增“接收其他应用分享”功能，在浏览器中即可分享内容到烂笔头
+> 新增“查看教程”功能，通过教程学习如何快速记录内容到烂笔头
+> *2.0版本之后，[烂笔头](http://www.wandoujia.com/apps/com.ted.jots.myjot)这个小项目就暂时停止了，着手开发下一个app，要看到时候有什么好的`Idea`了。
+
+
 下面是烂笔头的运行截图，如果有人想实际使用一下的话，可以下载[烂笔头]。
 
 ![EasyNoteJpg1](http://7vzsca.com1.z0.glb.clouddn.com/tedcoderOneNote-1.jpg_img500w) ![EasyNoteJpg2](http://7vzsca.com1.z0.glb.clouddn.com/tedcoderOneNote-2.jpg_img500w)
