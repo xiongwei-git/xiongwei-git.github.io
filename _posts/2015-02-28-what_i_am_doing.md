@@ -11,12 +11,13 @@ category: blog
 现在，我正在做：
 
 ##七牛云存储
-* 七牛云存储认证，进行到人工审核进度 
-* 人工认证审核通过，下一步测试 [跳转七牛](https://portal.qiniu.com/)
+* _七牛云存储认证，进行到人工审核进度_
+* _人工认证审核通过，下一步测试 [跳转七牛](https://portal.qiniu.com/)_
+* 进一步研究，有时间再做
 
 ##烂笔头项目
-* 完善烂笔头开源项目
-* 写博文[EasyNote]
+* _完善烂笔头开源项目_
+* _写博文[EasyNote]_
 
 ##研究origami
 * [origami文档](http://facebook.github.io/origami/)
@@ -27,6 +28,7 @@ category: blog
 
 ##学习Markdown
 * [Markdown 语法说明](http://wowubuntu.com/markdown/)
+* [在线编辑器](https://stackedit.io/editor#fn:stackedit)
 
 ##了解RxJava和RxAndroid
 * [RxJava]
