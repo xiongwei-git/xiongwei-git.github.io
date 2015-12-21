@@ -10,27 +10,39 @@ category: blog
 
 ---
 
-现在，我正在做：
+###现在，我正在做：@`2015-12-21`
+
+## Inputer应用开发
+* [X] 窗体浮层功能
+* [ ] 数据存储功能
+* [ ] UI页面开发
+
 
 ##开发10张图应用
 * 图片存储服务器搞定
 * 数据存储服务器搞定
 * 后续功能开发进行中
+* 所功能开发完成
+* 找设计师设计交互
 
 ##学习python
 * [Python快速教程](http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)
 * [零基础自学用Python 3开发网络爬虫(一)](http://jecvay.com/2014/09/python3-web-bug-series1.html)
+*  [X] 小有收获，能编写一般基本需求自动化脚本 
 
 ##研究origami
 * [origami文档](http://facebook.github.io/origami/)
+-  [ ] 基本原理学习中
 
 ##学习Markdown
 * [Markdown 语法说明](http://wowubuntu.com/markdown/)
 * [在线编辑器](https://stackedit.io/editor#fn:stackedit)
+* [x]小有收获，能用MarkDown书写基本文档
 
 ##了解RxJava和RxAndroid
 * [RxJava]
 * [RxAndroid]
+* [x]已经结束，下一步尝试在自己项目中使用`RxJava`相关技术
 
 ##七牛云存储
 * _七牛云存储认证，进行到人工审核进度_
@@ -39,18 +51,18 @@ category: blog
 * 已经结束
 
 ##烂笔头项目
-* _完善烂笔头开源项目_
-* _发布2.0版本，新增部分功能_
-* _写博文[EasyNote]_
-* 该项目已经结束
+* [x]完善烂笔头开源项目
+* [x]发布2.0版本，新增部分功能
+* [x]写博文[EasyNote]
+* [x]该项目已经结束
 
 ##应用锁项目
 * 开发进行中
 * 无限期暂停
 
 ##易用便签项目
-* 开发进行中  
-* 已经放弃  
+*  ~~开发进行中~~
+* ~~已经放弃~~
 
 
 ---
