@@ -8,6 +8,7 @@ exclude:
 name: 代码熊-TedCoder
 host: tedcoder.com/
 desc: Android应用开发者，喜欢捣鼓新生事物，对很多技术抱有兴趣，有代码洁癖，喜欢规划，不喜欢拖延。
+markdown: kramdown 
 
 custom:
     category:
