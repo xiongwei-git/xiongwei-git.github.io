@@ -1,8 +1,14 @@
 ---
 layout: post
 title: Material Design风格之极简便签
-category: easy_note
+date:       2015-02-26
+author:     "Ted"
+tags:
+    - App
+    - 开源
+    - 烂笔头
 ---
+
 
 年前新做的项目里想使用一下Google最新的Material Design风格设计，趁着年假回家前几天，大家都打酱油的时间，我抽时间看了一下Google的官方文档，借助一些大神的开源库，花了两个小时时间倒腾出来一个小app，起了个名字，叫[烂笔头],英文名叫`EasyNote`。
 

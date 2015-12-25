@@ -1,7 +1,11 @@
 ---
 layout: post
 title: 2015-2016年读书计划清单
-category: blog
+date:       2015-12-23
+author:     "Ted"
+tags:
+    - 计划
+    - 随笔
 ---
 
 读书务在循序渐进；一书已熟，方读一书，勿得卤莽躐等，虽多无益。　——胡居仁
