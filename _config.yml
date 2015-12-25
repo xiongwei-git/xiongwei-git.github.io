@@ -62,7 +62,7 @@ duoshuo_share: false                     # set to false if you want to use Comme
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "读读书，写写代码，什么事情都尝试做一点，不辜负内心的追求"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-ted.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
