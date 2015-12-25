@@ -1,87 +1,37 @@
-# Site settings
-title: Ted's Blog
-SEOTitle: Ted's Blog | 熊伟的博客
-header-img: img/home-bg.jpg
-email: xiong-wei@hotmail.com
-description: "努力去做一个不辜负时光和爱情的Coder"
-keyword: "Ted XiongWei"
-url: "http://tedcoder.com"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+pygments: true
+safe: false
+permalink: /posts/:title.html
+exclude:
+  - README.md
+
+name: 代码熊-TedCoder
+host: tedcoder.com/
+desc: Android应用开发者，喜欢捣鼓新生事物，对很多技术抱有兴趣，有代码洁癖，喜欢规划，不喜欢拖延。
 
 
+custom:
+    category:
+        blog:  Blogs
+        easy_note: About EasyNote
+    categories:
+      - name:  blog
+        title: Blogs
 
-# SNS settings
-RSS: false
-weibo_username:     1863182602
-zhihu_username:     pandaheroes
-github_username:    xiongwei-git
-#twitter_username:  huxpro
-#facebook_username:  huxpro
+      - name:  easy_note
+        title: 烂笔头
 
+    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 
+meta:
+    author:
+        name: Ted
+        email: xiong-wei@hotmail.com
+        disqus: tedcoder.disqus.com	            # Disqus缩略标识
+        gcse: 013980716105654176158:plxoomwkfey     # Google自定义搜索标识ID
+        github: xiongwei-git	                    # GitHub账号
+        gravatar: 71751d1077e8ed18ef53dbac4295fa60  # Gravatar头像标识
 
-# Build settings
-highlighter: pygments
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# Disqus settings
-#disqus_username: tedcoder.disqus.com
-
-# Duoshuo settings
-duoshuo_username: pandaheroes
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id: f5e1f6ce0e5c171c6599ce48a61b4991
-# Google Analytics
-ga_track_id: 'UA-71746678-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "读读书，写写代码，什么事情都尝试做一点，不辜负内心的追求"
-sidebar-avatar: /img/avatar_ted.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-friends: [
-    {
-        title: "强者世界",
-        href: "http://dwrstc.github.io/"
-    },{
-        title: "军军博客",
-        href: "http://pomeloj.farbox.com/"
-    },{
-        title: "雳雳老窝",
-        href: "http://cl.1024ab.tk/index.php?u=238665&vcencode=6735145096"
-    }
-]
+    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
+    gapi: http://www.google.com/jsapi               # Google API地址
+    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
+markdown: Pygments
