@@ -4,8 +4,6 @@ title: Material Design风格之极简便签
 date:       2015-02-26
 author:     "Ted"
 tags:
-    - App
-    - 开源
     - 烂笔头
 ---
 
