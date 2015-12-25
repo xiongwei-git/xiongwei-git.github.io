@@ -22,10 +22,3 @@ tags:
 |Head First 设计模式|20%|loading|  
 |深入理解Java虚拟机|10% |loading|  
 |Android应用性能优化|0%|loading|  
-
----
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
