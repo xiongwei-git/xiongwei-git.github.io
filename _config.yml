@@ -43,9 +43,9 @@ kramdown:
 #disqus_username: tedcoder.disqus.com
 
 # Duoshuo settings
-duoshuo_username: xiongwei
+duoshuo_username: pandaheroes
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -75,19 +75,13 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "强者世界",
+        href: "http://dwrstc.github.io/"
     },{
-        title: "Foo",
-        href: "#"
+        title: "军军博客",
+        href: "http://pomeloj.farbox.com/"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "雳雳老窝",
+        href: "http://cl.1024ab.tk/index.php?u=238665&vcencode=6735145096"
     }
 ]
