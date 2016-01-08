@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Dev Tips #1- 布局文件XML中的三个小技巧
+title: Android Dev Tips 1- 布局文件XML中的三个小技巧
 date:       2015-07-10
 author:     "Ted"
 tags:
@@ -10,14 +10,14 @@ tags:
 
 1. **快速绑定点击事件**
     在XMl中可以通过onClick这个属性直接绑定该视图的点击事件，方法如下：
-
             <Button
             android:id="@+id/pay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:onClick="pay"/>
-    接下来只需在Fragment或者Activity中定义一个public的方法，方法名称需要与xml中定义的一致即可。如下：
+            android:onClick="pay"/>  
+    
+    接下来只需在Fragment或者Activity中定义一个public的方法，方法名称需要与xml中定义的一致即可。如下：  
     	public void pay(View v) {
 	}
 

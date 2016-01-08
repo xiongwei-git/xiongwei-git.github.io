@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Dev Tips #2-实现Android 页面切换的Reveal切换效果
+title: Android Dev Tips 2-实现Android 页面切换的Reveal切换效果
 date:       2015-07-13
 author:     "Ted"
 tags:
