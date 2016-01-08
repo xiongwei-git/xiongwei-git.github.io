@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Android Dev Tips 1- 布局文件XML中的三个小技巧
+title: Android Dev Tips 1-布局文件XML中的三个小技巧
 date:       2015-07-10
 author:     "Ted"
 tags:
-    - tips
+    - Tips
 ---
 
 
