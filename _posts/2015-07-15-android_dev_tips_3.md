@@ -52,7 +52,7 @@ tags:
     ```
 
     修改为：
-
+    
     ```
     {
 	"cmd": ["buildJava.bat", "$file"],
