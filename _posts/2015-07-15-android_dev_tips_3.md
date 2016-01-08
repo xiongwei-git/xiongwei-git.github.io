@@ -18,6 +18,7 @@ tags:
 
 ## 1.java编译环境的配置
 很简单，此处略过。
+
 ## 2.修改java编译脚本
 创建一个文本文件，建议使用Sublime，保存格式为 **UTF-8** 取名为`buildJava.bat`，文本内容如下:  
 ```
@@ -34,6 +35,7 @@ tags:
       )
 ```
 保存位置为jdk目录中的bin目录下。例如：**C:\Program Files\Java\jdk1.7.0_79\bin**
+
 ## 3.修改Sublime中Java编译配置
 
  1. 菜单Perferences->Browse Packages,打开Sublime的包目录
