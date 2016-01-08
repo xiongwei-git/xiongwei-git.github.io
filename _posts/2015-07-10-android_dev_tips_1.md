@@ -20,9 +20,10 @@ tags:
 	            
     接下来只需在Fragment或者Activity中定义一个public的方法，方法名称需要与xml中定义的一致即可。如下:
     
-    	``` java
-    	public void pay(View v) {}
-	```
+    	
+    	public void pay(View v) {
+		//todo something
+	}
 
 * ### 避免XML中硬编码检查
     XML文件对String的引用，通常的建议是写在string.xml文件中，否则会出现硬编码相关的警告，如下图:
@@ -37,6 +38,7 @@ tags:
 		        android:onClick="pay"
 		        android:text="支付"
 		        tools:ignore="HardcodedText" />  
+
 	同样解决方案可参考：http://stackoverflow.com/questions/14940255/how-to-remove-error-hardcoded-string-button-should-use-string-resource-in-ecli
 
 * ### 实时预览中的文本内容不带到生产环境中
