@@ -62,7 +62,7 @@ tags:
 
 第一行的目的是为了调用我们刚才写的java编译脚本，最后一行的目的是为了指定编码格式。
     
-## 接下来，重启你的SublimeText，写一段Java的HelloWorld代码，`Ctrl+B`,即可见证奇迹。
+## 接下来，重启你的SublimeText，写一段Java的`HelloWorld`，`Ctrl+B`,即可见证奇迹。
 
 
 
