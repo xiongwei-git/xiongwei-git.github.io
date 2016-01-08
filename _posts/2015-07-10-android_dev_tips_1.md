@@ -18,9 +18,11 @@ tags:
 	            android:layout_margin="10dp"
 	            android:onClick="pay"/>
 	            
-    接下来只需在Fragment或者Activity中定义一个public的方法，方法名称需要与xml中定义的一致即可。如下：    
-    	
+    接下来只需在Fragment或者Activity中定义一个public的方法，方法名称需要与xml中定义的一致即可。如下:
+    
+    	```java
     	public void pay(View v) {}
+	```
 
 * ##避免XML中硬编码检查
     XML文件对String的引用，通常的建议是写在string.xml文件中，否则会出现硬编码相关的警告，如下图:
