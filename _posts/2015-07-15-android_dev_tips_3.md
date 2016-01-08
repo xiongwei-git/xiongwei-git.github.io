@@ -22,17 +22,17 @@ tags:
 ## 2.修改java编译脚本
 - 创建一个文本文件，建议使用Sublime，保存格式为 **UTF-8** 取名为`buildJava.bat`，文本内容如下:  
 ```
-      @ECHO OFF
-      cd %~dp1
-      ECHO Compiling %~nx1.......
-      IF EXIST %~n1.class (
-         DEL %~n1.class
-      )
-      javac %~nx1
-      IF EXIST %~n1.class (
-         ECHO -----------OUTPUT-----------
-         java %~n1
-      )
+      @ECHO OFF  
+      cd %~dp1  
+      ECHO Compiling %~nx1.......  
+      IF EXIST %~n1.class (  
+         DEL %~n1.class  
+      )  
+      javac %~nx1  
+      IF EXIST %~n1.class (  
+         ECHO -----------OUTPUT-----------  
+         java %~n1  
+      )  
 ```
 - 保存位置为jdk目录中的bin目录下。例如：**C:\Program Files\Java\jdk1.7.0_79\bin**
 
@@ -44,20 +44,20 @@ tags:
  原文件：
    
     ``` 
-    {
-    	"cmd": ["javac", "$file"],
-		"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-		"selector": "source.java",
-    }
+    {  
+    	"cmd": ["javac", "$file"],  
+		"file_regex": "^(...*?):([0-9]*):?([0-9]*)",  
+		"selector": "source.java",  
+    }  
     ```
 修改为：  
     ```
-    {
-	    "cmd": ["buildJava.bat", "$file"],
-	    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-	    "selector": "source.java",
-    	"encoding": "cp936"
-    }
+    {  
+	    "cmd": ["buildJava.bat", "$file"],  
+	    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",  
+	    "selector": "source.java",  
+    	"encoding": "cp936"  
+    }  
     ```  
 
 第一行的目的是为了调用我们刚才写的java编译脚本，最后一行的目的是为了指定编码格式。
