@@ -17,10 +17,10 @@ tags:
  ------
 
 ## 1.java编译环境的配置
-很简单，此处略过。
+- 很简单，此处略过。
 
 ## 2.修改java编译脚本
-创建一个文本文件，建议使用Sublime，保存格式为 **UTF-8** 取名为`buildJava.bat`，文本内容如下:  
+- 创建一个文本文件，建议使用Sublime，保存格式为 **UTF-8** 取名为`buildJava.bat`，文本内容如下:  
 ```
       @ECHO OFF
       cd %~dp1
@@ -34,37 +34,35 @@ tags:
          java %~n1
       )
 ```
-保存位置为jdk目录中的bin目录下。例如：**C:\Program Files\Java\jdk1.7.0_79\bin**
+- 保存位置为jdk目录中的bin目录下。例如：**C:\Program Files\Java\jdk1.7.0_79\bin**
 
 ## 3.修改Sublime中Java编译配置
 
- 1. 菜单Perferences->Browse Packages,打开Sublime的包目录
- 2. 进入Java目录
- 3. 编辑`JavaC.sublime-build`文件，建议使用SublimeText编辑。
-    原文件：
+ - 菜单Perferences->Browse Packages,打开Sublime的包目录
+ - 进入Java目录
+ - 编辑`JavaC.sublime-build`文件，建议使用SublimeText编辑。  
+ 原文件：
    
     ``` 
     {
-	"cmd": ["javac", "$file"],
-	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-	"selector": "source.java",
+    	"cmd": ["javac", "$file"],
+		"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+		"selector": "source.java",
     }
     ```
-
-    修改为：
-    
+修改为：  
     ```
     {
-	"cmd": ["buildJava.bat", "$file"],
-	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-	"selector": "source.java",
-	"encoding": "cp936"
+	    "cmd": ["buildJava.bat", "$file"],
+	    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	    "selector": "source.java",
+    	"encoding": "cp936"
     }
     ```  
 
 第一行的目的是为了调用我们刚才写的java编译脚本，最后一行的目的是为了指定编码格式。
     
-接下来，重启你的SublimeText，写一段Java的HelloWorld代码，`Ctrl+B`,即可见证奇迹。
+## 接下来，重启你的SublimeText，写一段Java的HelloWorld代码，`Ctrl+B`,即可见证奇迹。
 
 
 
