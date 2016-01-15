@@ -1,12 +1,11 @@
 ---
 layout: post
-title:【译】Android Studio 2.0预览版 v5 功能介绍
+title: 【译】Android Studio 2.0预览版 v5 功能介绍
 date:       2016-01-15
 author:     "Ted"
 tags:
     - 翻译
     - 工具
-
 ---
 
 ## 【译】Android Studio 2.0预览版 v5 功能介绍
