@@ -48,6 +48,4 @@ tags:
 如果您在使用过程中遇到问题，请检查[已知问题](http://tools.android.com/knownissues),我们会在必要的时候更新相关问题。
 ![20p5](https://raw.githubusercontent.com/xiongwei-git/xiongwei-git.github.io/master/img/blog/20p5.png)
 
-
-
 [注1]：**canary 渠道** 意为还没有做好发布准备的代码  参考自[Google的产品质量之道](http://www.infoq.com/cn/news/2011/03/Ensuring-Product-Quality-Google/)
