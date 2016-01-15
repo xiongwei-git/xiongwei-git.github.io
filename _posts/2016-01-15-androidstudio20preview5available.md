@@ -23,9 +23,9 @@ tags:
 	![Remove Unused Resources](https://raw.githubusercontent.com/xiongwei-git/xiongwei-git.github.io/master/img/blog/unused-resources.png)
 	- 无用资源探测器已经被重写，支持对无用的资源进行“传递”标记（被引用的资源，但仅仅只能从无用的资源标记），支持在raw资源中进行探测，例如.html的图片引用。支持Gradle 的资源瘦身器经常使用的`tools:keep`和`tools:discard`属性，用来收集不活跃的资源集（例如在product flavors 和 build types中定义的资源）。并且能够妥善处理静态资源的声明。同时针对移除无用资源功能提供了快速修复功能（后悔了？）。
 	- 隐式API检查。直到现在，lint依然能够在所有平台上根据你的最小sdk版本对方法调用和变量引用进行检查。但是，有很多的类已经实现了新的借口，比如`Closeable`，在最新的版本或者那些继承该类的子类都已经发生了变化。举个栗子，KeyEvent类只有在API 9版本才有个父类InputEvent。 这也就是说，在所有你隐式或者显示转换的地方，都有一个潜在的崩溃风险。现在，Lint开始跟踪这些API的变化并且全部隐式检查。
-	![implicit-cast](https://raw.githubusercontent.com/xiongwei-git/xiongwei-git.github.io/master/img/blog/implicit-cast.png)
+![implicit-cast](https://raw.githubusercontent.com/xiongwei-git/xiongwei-git.github.io/master/img/blog/implicit-cast.png)
 	- 几个新的Lint检查-对使用RecyclerView 时容易犯的一个错误进行检查，对Parcelable 加载时一个潜在的崩溃进行检查，以及8个从字节码分析移植到IDE内部分析的Lint 检查功能，如此之后，它们便能在编辑器的后台运行。
-	![recyclerview](https://raw.githubusercontent.com/xiongwei-git/xiongwei-git.github.io/master/img/blog/recyclerview.png)
+![recyclerview](https://raw.githubusercontent.com/xiongwei-git/xiongwei-git.github.io/master/img/blog/recyclerview.png)
 	- `@IntDef`,`@IntRange`和`@Size`检查不仅仅针对原始的整形进行检查，同样支持数组和可变参数。
 	- 还有一些其他杂七杂八的改进，例如即使当前编辑器里面存在语法错误，Lint仍旧会运行，并且在IDE分析窗口中显示Lint检查的问题分类。使第三方的（来自AAR库）的lint检查规则在IDE里工作的更好，诸如此类等等。
 
