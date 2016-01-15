@@ -13,7 +13,7 @@ tags:
 原文地址：[https://sites.google.com/a/android.com/tools/recent/androidstudio20preview5available](https://sites.google.com/a/android.com/tools/recent/androidstudio20preview5available)
 
  我们刚刚通过金丝雀[^canary]版本渠道发布了Android Studio 2.0预览版 v5。相对于上个月的预览版 v4，这次构建做了很大一批的修复，主要包括：
-   * **Instant Run（即时运行）**：在这块，我们做了巨大的修改。在之前提供的一些特性中（*原句：Among the user visible features*），我们提供了`冷修复`模式：即如果有一些无法通过热修复方式发布的不兼容的改动，会在编译之后通过重启app来发布这些改动。根据运行设备的API版本，我们使用了不同的办法来解决这个问题。  
+   * **Instant Run（即时运行）**：在这块，我们做了巨大的修改。在之前提供的一些特性中（*原句：Among the user visible features*），我们提供了`冷修复`模式：即如果有一些无法通过热修复方式发布的不兼容的改动，会在编译之后通过重启app来发布这些改动。根据运行设备的API版本，我们使用了不同的办法来解决这个问题。
 	-  在棉花糖版本的机器上，我们使用`APK分裂`方式，首先把代码库分割成不同的APK片，然后通过`adb install-multiple`方式安装它们。也就是说，在M设备上，不再像M之前的老设备那样使用类加载方式。
 	-  在棒棒糖设备上，我们使用`multidex`来拆分代码到不同的dex块，然后推送到设备中。
 	-  针对巧克力版本以及更低版本，我们创建了一个单独的dex块来存放被修改的类。
