@@ -71,11 +71,11 @@ View通常由Activity或者Fragment实现，持有一个对Presenter的引用。
 再见！
 
 > 参考：    
-* http://antonioleiva.com/mvp-android/  
-* http://hannesdorfmann.com/android/mosby  
-* http://www.codeproject.com/Articles/288928/Differences-between-MVC-and-MVP-for-Beginners  
-* https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android  
-* https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
+ * [http://antonioleiva.com/mvp-android/](http://antonioleiva.com/mvp-android/)  
+ * [http://hannesdorfmann.com/android/mosby  ](http://hannesdorfmann.com/android/mosby  )
+ * [http://www.codeproject.com/Articles/288928/Differences-between-MVC-and-MVP-for-Beginners](http://www.codeproject.com/Articles/288928/Differences-between-MVC-and-MVP-for-Beginners)  
+ * [https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android](https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android)  
+ * [https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter)
 
 [1]:http://7vzsca.com1.z0.glb.clouddn.com/2016-03-14-MVP.png_img800w
 [2]:http://7vzsca.com1.z0.glb.clouddn.com/2016-03-14_MVC-vs-MVP.png_img800w
