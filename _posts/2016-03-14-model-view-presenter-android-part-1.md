@@ -30,9 +30,9 @@ tags:
 
 ### MVC、MVP的定义说明
 > **Model–view–controller (MVC)**主要是（但不限于）用于在计算机上实现用户界面的软件架构设计模式。它把一个既定的软件应用程序分为三个相互连接的部分，以便于把显示内容或者从用户获取信息的这两种内在的数据表现动作分离出来。  
-[wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)  
+[维基百科](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)  
 > **Model–view–presenter (MVP)**是MVC设计模式的推导，并主要用于构建用户界面。在MVP中Presenter承担了“中间人”的功能，并且所有的表示逻辑都交给了Presenter。  
-[wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter)
+[维基百科](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter)
 
 ![MVC-vs-MVP][2]
 
