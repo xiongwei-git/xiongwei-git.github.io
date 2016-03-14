@@ -70,12 +70,12 @@ View通常由Activity或者Fragment实现，持有一个对Presenter的引用。
 如果你想查看相关代码，[在这里](https://github.com/tinmegali/simple-mvp/tree/master/AndroidMVP/mvp/src/main/java/com/tinmegali/mvp/mvp)，这个版本是参考了[Dr. Douglas C. Schmidt](https://en.wikipedia.org/wiki/Douglas_C._Schmidt)的代码。代码拿去干啥都行，不用问我。
 再见！
 
-> 参考：  
-- http://antonioleiva.com/mvp-android/  
-- http://hannesdorfmann.com/android/mosby  
-- http://www.codeproject.com/Articles/288928/Differences-between-MVC-and-MVP-for-Beginners  
-- https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android  
-- https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
+> 参考：    
+* http://antonioleiva.com/mvp-android/  
+* http://hannesdorfmann.com/android/mosby  
+* http://www.codeproject.com/Articles/288928/Differences-between-MVC-and-MVP-for-Beginners  
+* https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android  
+* https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
 
 [1]:http://7vzsca.com1.z0.glb.clouddn.com/2016-03-14-MVP.png_img800w
 [2]:http://7vzsca.com1.z0.glb.clouddn.com/2016-03-14_MVC-vs-MVP.png_img800w
