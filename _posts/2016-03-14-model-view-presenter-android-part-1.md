@@ -16,7 +16,7 @@ tags:
 
 本系列文章的第一部分，我们重点讨论**MVC**(Model View Controller)和**MVP** (Model View Presenter)的不同之处，以及为什么**MVC**正在被淘汰、**MVP**在Android SDK中的运用和它的一些优秀特性。
 
-*附上另外两篇文章的地址，后期再翻译。*
+*附上另外两篇文章的地址，后期再翻译。*  
 - [Model View Presenter (MVP) in Android, part 2](http://www.tinmegali.com/en/model-view-presenter-mvp-in-android-part-2/)  
 - [Model View Presenter (MVP) in Android, part 3](http://wp.me/p7gH7l-34)
 
@@ -31,7 +31,6 @@ tags:
 ### MVC、MVP的定义说明
 > **Model–view–controller (MVC)**主要是（但不限于）用于在计算机上实现用户界面的软件架构设计模式。它把一个既定的软件应用程序分为三个相互连接的部分，以便于把显示内容或者从用户获取信息的这两种内在的数据表现动作分离出来。  
 [wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)  
-
 > **Model–view–presenter (MVP) **是MVC设计模式的推导，并主要用于构建用户界面。在MVP中Presenter承担了“中间人”的功能，并且所有的表示逻辑都交给了Presenter。  
 [wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter)
 
@@ -71,11 +70,11 @@ View通常由Activity或者Fragment实现，持有一个对Presenter的引用。
 如果你想查看相关代码，[在这里](https://github.com/tinmegali/simple-mvp/tree/master/AndroidMVP/mvp/src/main/java/com/tinmegali/mvp/mvp)，这个版本是参考了[Dr. Douglas C. Schmidt](https://en.wikipedia.org/wiki/Douglas_C._Schmidt)的代码。代码拿去干啥都行，不用问我。
 再见！
 
-> 参考：
-* http://antonioleiva.com/mvp-android/
-* http://hannesdorfmann.com/android/mosby
-* http://www.codeproject.com/Articles/288928/Differences-between-MVC-and-MVP-for-Beginners
-* https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android
+> 参考：  
+* http://antonioleiva.com/mvp-android/  
+* http://hannesdorfmann.com/android/mosby  
+* http://www.codeproject.com/Articles/288928/Differences-between-MVC-and-MVP-for-Beginners  
+* https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android  
 * https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
 
 [1]:http://7vzsca.com1.z0.glb.clouddn.com/2016-03-14-MVP.png_img800w
