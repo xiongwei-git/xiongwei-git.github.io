@@ -12,16 +12,14 @@ tags:
 @(读书笔记)[Java,Java内存,并发编程]
 
 >**声明：尊重原作，本文只是读书笔记，所有版权均属于原作**  
->
-> 原文地址：http://www.infoq.com/cn/articles/java-memory-model-1 
->  
+> 原文地址：[http://www.infoq.com/cn/articles/java-memory-model-1 ](http://www.infoq.com/cn/articles/java-memory-model-1 )  
 > 后续阅读：  
-> http://www.infoq.com/cn/articles/java-memory-model-2  
-> http://www.infoq.com/cn/articles/java-memory-model-3  
-> http://www.infoq.com/cn/articles/java-memory-model-4  
-> http://www.infoq.com/cn/articles/java-memory-model-5  
-> http://www.infoq.com/cn/articles/java-memory-model-6  
-> http://www.infoq.com/cn/articles/java-memory-model-7  
+> [http://www.infoq.com/cn/articles/java-memory-model-2](http://www.infoq.com/cn/articles/java-memory-model-2)  
+> [http://www.infoq.com/cn/articles/java-memory-model-3](http://www.infoq.com/cn/articles/java-memory-model-3)  
+> [http://www.infoq.com/cn/articles/java-memory-model-4](http://www.infoq.com/cn/articles/java-memory-model-4)  
+> [http://www.infoq.com/cn/articles/java-memory-model-5](http://www.infoq.com/cn/articles/java-memory-model-5)  
+> [http://www.infoq.com/cn/articles/java-memory-model-6](http://www.infoq.com/cn/articles/java-memory-model-6)  
+> [http://www.infoq.com/cn/articles/java-memory-model-7](http://www.infoq.com/cn/articles/java-memory-model-7)  
 
 
 * 并发编程需要处理两个关键问题，线程之间如何通信和线程之间如何同步，这里的线程指的是并发执行的活动实体。
