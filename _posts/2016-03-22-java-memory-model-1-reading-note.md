@@ -11,15 +11,17 @@ tags:
 
 @(读书笔记)[Java,Java内存,并发编程]
 
->**声明：尊重原作，本文只是读书笔记，所有版权均属于原作**
-> 原文地址：http://www.infoq.com/cn/articles/java-memory-model-1
-> 后续阅读：
-> http://www.infoq.com/cn/articles/java-memory-model-2
-> http://www.infoq.com/cn/articles/java-memory-model-3
-> http://www.infoq.com/cn/articles/java-memory-model-4
-> http://www.infoq.com/cn/articles/java-memory-model-5
-> http://www.infoq.com/cn/articles/java-memory-model-6
-> http://www.infoq.com/cn/articles/java-memory-model-7
+>**声明：尊重原作，本文只是读书笔记，所有版权均属于原作**  
+>
+> 原文地址：http://www.infoq.com/cn/articles/java-memory-model-1 
+>  
+> 后续阅读：  
+> http://www.infoq.com/cn/articles/java-memory-model-2  
+> http://www.infoq.com/cn/articles/java-memory-model-3  
+> http://www.infoq.com/cn/articles/java-memory-model-4  
+> http://www.infoq.com/cn/articles/java-memory-model-5  
+> http://www.infoq.com/cn/articles/java-memory-model-6  
+> http://www.infoq.com/cn/articles/java-memory-model-7  
 
 
 * 并发编程需要处理两个关键问题，线程之间如何通信和线程之间如何同步，这里的线程指的是并发执行的活动实体。
@@ -53,11 +55,13 @@ tags:
 ### 处理器重排序和内存屏障指令
 
 现代的处理器使用了写缓存区来临时保存向内存中写入数据。写缓存区可以保证指令流水线持续运行，避免由于处理器停顿下来等待写入内存而产生的延迟。同时，以批处理的方式刷新缓冲区，以及合并写缓冲区对同一内存地址的多次写，可以减少对内存总线的占用。每个处理器的缓冲区仅仅对它所在的处理器可见。所以，处理器对内存的读/写操作的执行顺序，不一定与内存实际发生的读/写操作顺序一致。如下示例：  
-  | Processor A|Processor B|
-  | :--------: |:--------:|
-  | a = 1; //A1|b = 2; //B1|
-  | x = b; //A2|y = a; //B2|  
- 初始状态：a = b = 0
+
+| Processor A|Processor B|
+| :--------: |:--------:|
+| a = 1; //A1|b = 2; //B1|
+| x = b; //A2|y = a; //B2|
+
+初始状态：a = b = 0
 处理器允许执行后得到结果：x = y = 0
 假设处理器A和处理器B按程序的顺序并行执行内存访问，最终却可能得到x = y = 0的结果。
 具体的原因如下图所示：
@@ -75,6 +79,7 @@ tags:
 |x86|N|N|N|Y|N|
 |ia64|Y|Y|Y|Y|N|
 |PowerPC|Y|Y|Y|Y|N|
+
 “N”表示处理器不允许两个操作重排序，“Y”表示允许重排序。
 
 从上表我们可以看出：常见的处理器都允许Store-Load重排序；常见的处理器都不允许对存在数据依赖的操作做重排序。sparc-TSO和x86拥有相对较强的处理器内存模型，它们仅允许对写-读操作做重排序（因为它们都使用了写缓冲区）。
@@ -114,3 +119,4 @@ happens-before与JMM的关系如下图所示：
 [4]:http://7vzsca.com1.z0.glb.clouddn.com/2016_03_22_44.png_img800wNoWm
 [5]:http://7vzsca.com1.z0.glb.clouddn.com/2016_03_22_55.png_img800wNoWm
 [6]:http://7vzsca.com1.z0.glb.clouddn.com/2016_03_22_66.png_img800wNoWm
+
